@@ -1,0 +1,4 @@
+SELECT * FROM LAUNDRY_BOOKINGS
+WHERE LAUNDRY_ID = :laundryId
+AND (BOOKING_FROM >= :bookingFrom AND :bookingFrom <= BOOKING_TO
+OR BOOKING_FROM >= :bookingTo AND :bookingTo <= BOOKING_TO)
