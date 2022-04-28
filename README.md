@@ -14,4 +14,4 @@ A laundry booking service where you can book a timeslot, list all booked slots a
       } 
       ```
    2. GET request to ```/api/list-bookings``` to list all booked timeslots.
-   3. DELETE request to ```localhost:8080/api/cancel-laundry-booking/{booking-id}``` to cancel a booked timeslot.
+   3. DELETE request to ```/api/cancel-laundry-booking/{booking-id}``` to cancel a booked timeslot.
